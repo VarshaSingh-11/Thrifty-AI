@@ -1,0 +1,274 @@
+.main {
+  height: 100vh;
+  width: 100%;
+}
+.main h1 {
+  text-align: center;
+  font-size: 50px !important;
+  font-weight: 900;
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  margin-top: 50%;
+}
+.Tcontent .t1 {
+  display: flex;
+  padding-top: 2%;
+}
+.t1 h2 {
+  margin-top: 20px;
+}
+.daulism {
+  border-color: yellow !important;
+  border: 20px;
+  border-style: solid;
+}
+.Tcontent .t2 {
+  display: flex;
+  margin-top: 10%;
+  text-align: center;
+}
+.Tcontent .t22 {
+  padding: 30px;
+}
+.Tcontent h3 {
+  font-size: 15px !important;
+  margin-top: 5%;
+}
+.Tcontent h2 {
+  font-size: 30px !important;
+}
+.t3 {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 35%;
+}
+
+.t4 {
+  align-self: center;
+  margin-left: auto;
+  margin-top: 10%;
+}
+.carousel-caption {
+  text-align: top;
+  left: 400px;
+  right: auto;
+  top: -2%;
+}
+
+.carousel-inner {
+  height: 600px;
+  width: 90%;
+}
+.carousel-item img {
+  margin-top: 2%;
+  width: 900px;
+}
+.Tcontent2 {
+  padding: 5%;
+  background-image: url(../img/greybg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Tcontent2 h3 {
+  font-size: 20px !important;
+}
+
+.Tcontent2 h2 {
+  font-size: 30px !important;
+  font-weight: 1000;
+}
+
+.contact1 {
+  height: 100vh !important;
+}
+.contact1 h1 {
+  padding-top: 30vh;
+  text-align: center !important;
+  font-weight: 1000;
+  font-size: 50px !important;
+}
+.fform {
+  background-color: white;
+  padding: 20px;
+}
+form {
+  color: black;
+  margin: 5%;
+  margin-bottom: 10%;
+}
+.contact2 h2 {
+  font-size: 25px !important;
+  padding-top: 10vh;
+  text-decoration: underline;
+}
+.contact2 p,
+.contact1 p {
+  text-align: center;
+}
+.contact2 {
+  height: 40vh;
+}
+
+@media screen and (max-width: 768px) {
+  .Tcontent .t1 {
+    display: inline;
+  }
+  .t1 img {
+    width: 50%;
+  }
+  .Tcontent {
+    padding-top: 20%;
+  }
+  .t2 {
+    padding-top: 20% !important;
+  }
+  form {
+    margin: 0;
+  }
+  .contact2 {
+    height: 30vh;
+  }
+  .contact2 h2 {
+    padding-top: 10vh;
+  }
+  .Tcontent .t2 {
+    display: inline;
+  }
+  .t3 {
+    margin-left: 0%;
+    display: block;
+  }
+  .carousel-item img {
+    width: 100%;
+  }
+  .Tcontent2 h2 {
+    font-size: 20px !important;
+    font-weight: 1000;
+  }
+  .Tcontent2 h3 {
+    font-size: 13px !important;
+  }
+  .carousel-inner {
+    height: 500px;
+  }
+  .carousel-item img {
+    margin-top: 50%;
+  }
+  .popup .far {
+    top: 85.5% !important;
+  }
+  .popup .popuptext {
+    top: 85% !important;
+  }
+}
+
+.srijatest img {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  margin: 1%;
+  z-index: 2;
+  box-shadow: 0px 3px 30px white;
+  background-color: black;
+}
+
+.popup {
+  display: fixed;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 2;
+}
+.popup .far {
+  z-index: 3;
+  position: fixed;
+  top: 78.5%;
+  margin-right: 22px;
+  right: 0;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgba(255, 255, 255, 0.925);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: fixed;
+  top: 78%;
+  margin-right: 20px;
+
+  right: 0;
+  z-index: 1;
+
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  margin-right: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.popup button {
+  z-index: 3;
+  position: fixed;
+  top: 78.5%;
+  margin-right: 22px;
+  right: 0;
+  visibility: hidden;
+}
+.popup .far {
+  visibility: visible;
+}
+
+.testt {
+  position: absolute;
+  bottom: 0%;
+  right: 48%;
+}

@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+        integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Thrifty AI helps to enhance customer journey with better engagement. Our patented digital human technology provides customer experience worth sharing and CRM software helps businesses to reorient their goals for profitable growth.">
+
+    <meta name="keywords"
+        content="thrifty, thrifty AI, digital humans, artificial humans, AI, digital employees, AI chatbots, chatbots, unity 3d avatars, avatars, hindi AI, 3d avatars, human avatars, Thrifty avatars, India, CRM, AI-ML, ML CRM, customer experience, customer engagement,yashash gupta,tanishi mookerjee,harsh">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/tech.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/srija.css">
+    <link rel="stylesheet" href="./assets/css/deep.css">
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+
+    <link rel="shortcut icon" href="./assets/img/16--removebg-preview.png" type="image/x-icon" />
+</head>
+<title>Thrifty AI | Technology</title>
+</head>
+
+<body onload="javascript:myFunction()" class="body">
+
+
+
+    <nav class="navbar sticky-top navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand" href="./index.html">
+
+            <img src="./assets/img/Tlogo.png" width="120" height="55" class="d-inline-block align-top align-middle"
+                alt="Thrifty logo">
+
+            Thrifty AI
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+
+            <ul class="navbar-nav  ml-auto">
+                <div class="nav2">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="tech.html">Technology<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="blog.html">Blogs</a>
+                    </li>
+                </div>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="popup">
+        <button onclick="myFunction2()">
+            <i class="far fa-times-circle" id="myPopup2"></i>
+            <span class="popuptext" id="myPopup">Talk to srija</span>
+        </button>
+    </div>
+    <div class="srijatest">
+        <a href="./srija.html">
+            <img src="./assets/img/srija.jpg" class="img-thumbnail" alt="...">
+        </a>
+    </div>
+
+
+    <div class="deep">
+        <!-- partial:index.partial.html -->
+        <script type="x-shader/x-vertex" id="vertexshader">
+
+    attribute float size;
+    attribute vec3 customColor;
+    varying vec3 vColor;
+  
+    void main() {
+  
+      vColor = customColor;
+      vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+      gl_PointSize = size * ( 300.0 / -mvPosition.z );
+      gl_Position = projectionMatrix * mvPosition;
+  
+    }
+  
+  </script>
+        <script type="x-shader/x-fragment" id="fragmentshader">
+
+   uniform vec3 color;
+   uniform sampler2D pointTexture;
+  
+   varying vec3 vColor;
+  
+   void main() {
+  
+     gl_FragColor = vec4( color * vColor, 1.0 );
+     gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+  
+   }
+  </script>
+
+        <div id="magic">
+            <h1 class="testt">
+                <i class="fas fa-chevron-up"></i>
+            </h1>
+        </div>
+
+
+        <section class="Tcontent reveal">
+            <div class="t1">
+                <div class="col-lg-6">
+                    <img src="./assets/img/daulism.jpg" class="img-fluid mx-auto d-block daulism" alt="daulism">
+                    <h2 style="font-size: 20px !important;">Inspired By Mind-Body Dualism Concept.</h2>
+
+                </div>
+                <div class="col-lg-6 ">
+                    <img src="./assets/img/t22.png" width="340px" class="img-fluid mx-auto d-block" alt="Vaman">
+                    <h2 style="font-size: 20px !important;">Thrifty's VAMAN Program is aimed ​to develop
+                        Dualism in AI</h2>
+
+                </div>
+            </div>
+            <div class="t2 reveal">
+                <div class="col-lg-3 t22">
+                    <h2 class="gold">Inspiration</h2>
+                    <h3>
+                        Inspired from mind -body Dualism. How conscious mind and brain co-exists together? What makes
+                        human
+                        intelligent, emotional and creative?
+                    </h3>
+                </div>
+                <div class="col-lg-3 t22">
+                    <h2 class="gold">Problem</h2>
+                    <h3>
+                        How could we create AI with intelligent brain and digital consciousness? The digital
+                        consciousness
+                        and Ai brain should understand and interpret human emotions, personality and intelligence.
+                    </h3>
+                </div>
+                <div class="col-lg-3 t22">
+                    <h2 class="gold">Vision</h2>
+                    <h3>
+                        Develop machines that behaves, thinks, reacts and build connections like humans do.
+                    </h3>
+
+                </div>
+                <div class="col-lg-3 t22">
+                    <h2 class="gold">Opportunity</h2>
+                    <h3>
+                        Vaman program is a possible way to develop AI humans that might take us a step closer to achieve
+                        singularity.
+                    </h3>
+                </div>
+            </div>
+            <div class="t3 reveal">
+
+                <h2>THE ANATOMY OF </h2>&nbsp;
+                <h2 class="gold"> AI BRAIN</h2>
+
+            </div>
+            <div class="t4 col-lg-10 reveal ">
+
+                <img src="./assets/img/t3.png" class="img-fluid mx-auto d-block" alt="viryual human technology">
+
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/slide1.png" class="d-block w-90 ml-auto mr-auto" alt="digital avatars">
+                        <div class="carousel-caption ">
+                            <p>Meet Our Future Ready AI Humans that will take your CX light years ahead.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/slide2.png" class="d-block w-90 ml-auto mr-auto" alt="digital employee">
+                        <div class="carousel-caption">
+                            <p>Only 7% of conversation is words, while 55% is facial expression and 38% is tone of
+                                voice.
+                                Vaman program enables 25+ facial expressions and respective voice tone to make
+                                conversation
+                                more human-like and personalized.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/slide3.png" class="d-block w-90 ml-auto mr-auto" alt="virtual human">
+                        <div class="carousel-caption">
+                            <p>Meet Shewta: First Vaman enabled- prototype AI Human. Vaman combines the power of
+                                machines
+                                and humans to provide best at lower costs.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </section>
+
+
+        <section class="Tcontent2 ">
+            <center>
+                <h3 class="col-lg-6">"Integrate on Web, mobile, or physical kiosk.
+                    Available for all platforms, easily scalable
+                    with 24/7 support in 55+ languages."</h3>
+                <br>
+                <h2 class="col-lg-6">
+                    Redefine CX With Our AI Humans
+                </h2>
+                <br>
+            </center>
+        </section>
+
+
+        <center>
+            <h2 style="text-align: center; margin-top: 5%;">Schedule A Demo Today</h2>
+            <a href="./contact.html">
+                <button type="button" class="btn but1 btn-outline-light">Book A Demo</button>
+            </a>
+        </center>
+
+
+        <footer class="foot">
+            <div class=" f1 col-lg-4">
+                <h2>Thrifty AI</h2>
+                <p>We help you redefine your CX
+                    And bring more loyal customers.
+
+                    Enquire today if you are looking to
+                    expand your customer base.
+                </p>
+
+                <br>
+                <p>If Customer is king, Make them feel that
+                </p>
+            </div>
+            <div class="f1 col-lg-4">
+                <h2>THRIFTY MANAS</h2>
+                <p>To know more about our next gen AI
+                    consiousness
+                </p>
+                <p>
+                    ​Mail us: @forthriftyofficial@gmail.com
+                </p>
+            </div>
+            <div class=" f1 col-lg-4">
+
+                <img src="./assets/img/T2.png" class="img-fluid mx-auto d-block" alt="..." width="300px">
+                <p>
+                    It's Time For Desi
+                    <br>
+                    To Meet World Class Facilities
+                </p>
+                <div class="middle">
+                    <div class="text"> <a href="https://www.linkedin.com/company/thrifty-official/mycompany/"
+                            class="snip1472"><i class="fab fa-linkedin-in"></i></a></div>
+                    <div class="text"> <a href="https://www.instagram.com/thrifty.ai/" class="snip1472"><i
+                                class="fab fa-instagram"></i></a></div>
+                    <div class="text"> <a href="https://youtu.be/_j3FQf5yqu8" class="snip1472"><i
+                                class="fab fa-youtube"></i></a></div>
+                    <div class="text"> <a href="mailto: forthriftyofficial@gmail.com" class="snip1472"><i
+                                class="fas fa-envelope-square"></i></a></div>
+
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js'></script>
+        <script src="./assets/js/deep.js"></script>
+
+
+        <script type="text/javascript">
+            window.addEventListener('scroll', reveal);
+
+            function reveal() {
+                var reveals = document.querySelectorAll('.reveal');
+
+                for (var i = 0; i < reveals.length; i++) {
+
+                    var windowheight = window.innerHeight;
+                    var revealtop = reveals[i].getBoundingClientRect().top;
+                    var revealpoint = 150;
+
+                    if (revealtop < windowheight - revealpoint) {
+                        reveals[i].classList.add('active');
+                    }
+
+                }
+
+            }
+
+
+
+        </script>
+        <script>$("#slideshow > div:gt(0)").hide();
+
+            setInterval(function () {
+                $('#slideshow > div:first')
+                    .fadeOut(1000)
+                    .next()
+                    .fadeIn(1000)
+                    .end()
+                    .appendTo('#slideshow');
+            }, 3000);</script>
+        <script>
+            $(document).ready(function () {
+                $(window).scrollTop(0);
+            });
+        </script>
+        <script src="./assets/js/meg_script.js"></script>
+        <script src="./assets/js/popup.js"></script>
+</body>
+
+</html>
